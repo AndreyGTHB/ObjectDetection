@@ -1,4 +1,5 @@
 from api import *
+from expirementUnetModel import build_model
 
 
-model = uNet(2, (160, 160, 3))
+model = build_model((160, 160, 3), 32)

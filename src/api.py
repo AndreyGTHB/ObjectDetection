@@ -19,4 +19,5 @@ def conv(input_image, filters, kernel_size=(3, 3), padding=0, activation=relu):
     for w in range(width):
         for h in range(height):
             for f in range(filters):
+                pass
 
